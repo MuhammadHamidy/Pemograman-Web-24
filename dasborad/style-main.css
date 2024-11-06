@@ -24,7 +24,6 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Header Section */
 .header {
     margin-bottom: 20px;
 }
@@ -36,7 +35,7 @@ body {
     margin-top: 10px;
 }
 
-/* Question Section */
+
 .question-section {
     background: #3c40c6;
     padding: 20px;
@@ -88,11 +87,22 @@ body {
     cursor: pointer;
 }
 
+.backhome-button {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #34ace0;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .hidden {
     display: none;
 }
 
-/* Result Section */
+
 .quiz-container .question-section p {
     font-size: 18px;
     color: #fff;

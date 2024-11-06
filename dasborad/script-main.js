@@ -86,7 +86,9 @@ function disableAnswers() {
     const answerButtons = document.querySelectorAll('.answer-button');
     answerButtons.forEach(btn => btn.disabled = true);
 }
-
+function showbackButton() {
+    document.querySelector('.backhome-button').classList.remove('hidden');
+}
 
 function showNextButton() {
     document.querySelector('.next-button').classList.remove('hidden');
@@ -99,8 +101,9 @@ function nextQuestion() {
     if (currentQuestionIndex < questions.length) {
         loadQuestion();
     } else {
-        document.querySelector('.question-section').innerHTML = `<h3>Quiz Complete!</h3><p>Your Score: ${score} out of ${questions.length * 10}</p><p>Thank you for participating.</p>`;
-    }
+        document.querySelector('.question-section').innerHTML = `<h3>Quiz Complete!</h3><p>Your Score: ${score} out of ${questions.length * 10}</p><p>Thank you for participating.</p>`; 
+    } 
+    
 }
 
 window.onload = loadQuestion;
