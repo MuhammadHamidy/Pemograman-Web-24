@@ -2,12 +2,12 @@ const questions = [
     {
         question: "Tag apakah yang digunakan untuk membuat script HTML, kecuali?",
         options: ["<p></p>", "function", "<html></html>", "<a></a>"],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
-        question: "apkah fungsi ?",
-        options: ["London", "Paris", "Rome", "Berlin"],
-        correctAnswer: 1
+        question: "apkah fungsi css?",
+        options: ["membuka media", "button", "navbar", "desain"],
+        correctAnswer: 3
     },
    
 ]
